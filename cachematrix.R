@@ -2,6 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+##The following function computes the inverse of a special 'matrix' returned by makeCachematrix. 
+##If the inverse has already been calculated(and the matrix has not changed), 
+##the cacheSolve should retrieve the inverse from cache.
 
 makeCacheMatrix <- function(x = matrix()) {
         b <- NULL
